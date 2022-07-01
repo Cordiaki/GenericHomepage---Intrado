@@ -11,13 +11,17 @@ a{
 	font-weight: bold;
 	letter-spacing: 0.3px;
 }
+p{
+	font-family: Hind, sans-serif;
+	letter-spacing: 0.3px;
+}
 
 .body{
 
 }
 
 .container{
-
+padding: 5px;
 }
 
 /** Navbar **/
@@ -40,15 +44,84 @@ a{
 
 /** Rows **/
 .container-main .container-main-sub .container-rows{
-	display: block;
+
 	padding: 0;
 	margin: 0;
 }
-/** First Row **/
-.container-main .container-main-sub .container-rows .container-row-1{
-	display: block;
-	background-color: rgb(242,102,65);
-	padding: 0;
-	margin: 0;
-	height: 250px;
-}
+	/** First Row **/
+	.container-main .container-main-sub .container-rows .container-row-1{
+		display: inline-block;
+		column-gap: 25px;
+		background-color: rgb(242,102,65);
+		padding: 0;
+		margin: 0;
+		height: 450px;
+		overflow: hidden;
+		position: relative;
+		width: 100%;
+	}
+		.container-main .container-main-sub .container-rows .container-row-1 .fr-col-1{
+			position: absolute;
+			padding: 105px 0px 0px 165px;
+			text-align: left;
+			width: 50%;
+		}
+			.container-main .container-main-sub .container-rows .container-row-1 .fr-col-1 h1,p{
+				color: white;
+			}
+			.container-main .container-main-sub .container-rows .container-row-1 .fr-col-1 h1{
+				padding: 10px;
+				font-size: 45px;
+			}
+			.container-main .container-main-sub .container-rows .container-row-1 .fr-col-1 p{
+				padding: 10px;
+				font-size: 19px;
+			}
+		.container-main .container-main-sub .container-rows .container-row-1 .fr-col-2{
+			position: absolute;
+			padding: 25px 25px 25px 25px;
+			text-align: left;
+			width: 50%;
+		}
+	/** First Row End **/	
+			
+
+	/** Second Row **/
+	.container-main .container-main-sub .container-rows .container-row-2{
+		display: block;
+		column-gap: 25px;
+		background-color: white;
+		padding: 0;
+		margin: 0;
+		height: 450px;
+	}
+
+	/** Third Row **/
+	.container-main .container-main-sub .container-rows .container-row-3{
+		display: block;
+		column-gap: 25px;
+		background-color: rgb(242,102,65);
+		padding: 0;
+		margin: 0;
+		height: 450px;
+	}
+
+	/** Fourth Row **/
+	.container-main .container-main-sub .container-rows .container-row-4{
+		display: block;
+		column-gap: 25px;
+		background-color: white;
+		padding: 0;
+		margin: 0;
+		height: 450px;
+	}
+
+	/** Fifth Row **/
+	.container-main .container-main-sub .container-rows .container-row-5{
+		display: block;
+		column-gap: 25px;
+		background-color: rgb(242,102,65);
+		padding: 0;
+		margin: 0;
+		height: 450px;
+	}
