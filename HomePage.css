@@ -1,0 +1,54 @@
+html{
+overflow-x: hidden;
+}
+
+html, html a, body {
+  -webkit-font-smoothing: antialiased;
+}
+
+a{
+	font-family: Hind, sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.3px;
+}
+
+.body{
+
+}
+
+.container{
+
+}
+
+/** Navbar **/
+.container-main .container-main-sub .navbar{
+	background-color: white;
+	border-width: 0;
+	display: block;
+	margin: 0;
+	padding: 0;
+	height: 25px;
+}
+.container-main .container-main-sub .navbar li:hover{
+	background-color: rgb(242,102,65);
+	border-width: 0;
+}
+.container-main .container-main-sub .navbar ul li a:hover{
+	color: white;
+}
+/** Navbar End **/
+
+/** Rows **/
+.container-main .container-main-sub .container-rows{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+/** First Row **/
+.container-main .container-main-sub .container-rows .container-row-1{
+	display: block;
+	background-color: rgb(242,102,65);
+	padding: 0;
+	margin: 0;
+	height: 250px;
+}
